@@ -1,22 +1,34 @@
 {
   "files": {
-    "main.css": "./static/css/main.65938976.chunk.css",
-    "main.js": "./static/js/main.ac7912a1.chunk.js",
-    "main.js.map": "./static/js/main.ac7912a1.chunk.js.map",
+    "main.css": "./static/css/main.5d1b2f56.chunk.css",
+    "main.js": "./static/js/main.7cc79f23.chunk.js",
+    "main.js.map": "./static/js/main.7cc79f23.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.0241ce5d.js",
     "runtime-main.js.map": "./static/js/runtime-main.0241ce5d.js.map",
-    "static/js/2.7a1efaf6.chunk.js": "./static/js/2.7a1efaf6.chunk.js",
-    "static/js/2.7a1efaf6.chunk.js.map": "./static/js/2.7a1efaf6.chunk.js.map",
+    "static/js/2.585bd40b.chunk.js": "./static/js/2.585bd40b.chunk.js",
+    "static/js/2.585bd40b.chunk.js.map": "./static/js/2.585bd40b.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.a17333db7ea12fe1784728cd24ddb191.js": "./precache-manifest.a17333db7ea12fe1784728cd24ddb191.js",
+    "precache-manifest.0108ada3a6f0501218c47984ababab87.js": "./precache-manifest.0108ada3a6f0501218c47984ababab87.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.65938976.chunk.css.map": "./static/css/main.65938976.chunk.css.map",
-    "static/js/2.7a1efaf6.chunk.js.LICENSE.txt": "./static/js/2.7a1efaf6.chunk.js.LICENSE.txt"
+    "static/css/main.5d1b2f56.chunk.css.map": "./static/css/main.5d1b2f56.chunk.css.map",
+    "static/js/2.585bd40b.chunk.js.LICENSE.txt": "./static/js/2.585bd40b.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "./static/media/star.12cb592d.svg",
+    "static/media/basket.svg": "./static/media/basket.794bf1f4.svg",
+    "static/media/burger.svg": "./static/media/burger.d0f78fc2.svg",
+    "static/media/close.svg": "./static/media/close.934c135a.svg",
+    "static/media/compare.svg": "./static/media/compare.c486cb57.svg",
+    "static/media/emblem.svg": "./static/media/emblem.8f70fb9f.svg",
+    "static/media/footer.scss": "./static/media/youtube.9ad6b2f4.svg",
+    "static/media/favorites.svg": "./static/media/favorites.df088502.svg",
+    "static/media/tire1.png": "./static/media/tire1.c8a3c434.png",
+    "static/media/tire2.png": "./static/media/tire2.cc6ae22f.png",
+    "static/media/tire3.png": "./static/media/tire3.b85816e6.png",
+    "static/media/tire4.png": "./static/media/tire4.9b67725a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0241ce5d.js",
-    "static/js/2.7a1efaf6.chunk.js",
-    "static/css/main.65938976.chunk.css",
-    "static/js/main.ac7912a1.chunk.js"
+    "static/js/2.585bd40b.chunk.js",
+    "static/css/main.5d1b2f56.chunk.css",
+    "static/js/main.7cc79f23.chunk.js"
   ]
 }
