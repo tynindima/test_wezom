@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React, {FC, useState} from 'react';
 import car from './img/car.png';
 import truck from './img/truck.png';
 import circle from './img/circle.png';
@@ -15,8 +15,25 @@ const selects = [
 ];
 
 export const FormBlock: FC = () => {
+  const [priceStart, setPriceStart] = useState('50');
+  const [priceEnd, setPriceEnd] = useState('250000');
+
+  const handleStartPrice = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setPriceStart(event.target.value);
+  };
+
+  const handleEndPrice = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setPriceEnd(event.target.value);
+  };
+
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    setPriceStart('50');
+    setPriceEnd('250000');
+  };
+
   return (
-    <form className="top__form form">
+    <form onSubmit={handleSubmit} className="top__form form">
       <ul className="form__list">
         <li className="form__item">
           <img className="form__img form__img--active" src={car} alt="car" />
@@ -51,12 +68,12 @@ export const FormBlock: FC = () => {
         ))}
         <div className="selections__select selections__price price selections__select--7">
           <p className="price__text">Цена</p>
-          <input className="price__numbers" type="text" placeholder="50" />
-          <input className="price__numbers" type="text" placeholder="250000" />
+          <input onChange={handleStartPrice} value={priceStart} className="price__numbers" type="text" />
+          <input onChange={handleEndPrice} value={priceEnd} className="price__numbers" type="text" />
         </div>
       </div>
       <div className="form__button-container button-container">
-        <button className="button-container__buttons button-container__button-clear" type="button">
+        <button className="button-container__buttons button-container__button-clear" type="submit">
           <img className="button-container__img" src={close} alt="close" />
           <p className="button-container__text">Очистить фильтр</p>
         </button>
