@@ -52,15 +52,15 @@ export const Header = () => {
           <div className="information__links links-head">
             <a className="links-head__link" href="/">
               <img className="links-head__img" src={compare} alt="compare" />
-              <p>Сравнение</p>
+              <p className="links-head__text">Сравнение</p>
             </a>
             <a className="links-head__link" href="/">
               <img className="links-head__img" src={favorites} alt="favorites" />
-              <p>Избранное</p>
+              <p className="links-head__text">Избранное</p>
             </a>
-            <a className="links-head__link" href="/">
+            <a className="links-head__link links-head__link--active" href="/">
               <img className="links-head__img" src={basket} alt="basket" />
-              <p>Корзина</p>
+              <p className="links-head__text">Корзина</p>
             </a>
           </div>
         </div>

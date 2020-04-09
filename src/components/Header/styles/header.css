@@ -1,3 +1,4 @@
+/* stylelint-disable */
 .nav {
   height: 50px;
   background-color: #696969;
@@ -21,26 +22,21 @@
   font-weight: 400;
   text-transform: uppercase;
 }
-
 .topnav__list {
   display: flex;
   list-style: none;
 }
-
 .topnav__item {
   margin-right: 11px;
   padding: 18px 9px 15px 15px;
   border-bottom: 2px solid #696969;
 }
-
 .topnav__item:first-child {
   padding-left: 0;
 }
-
 .topnav__item:hover {
   border-bottom: 2px solid #ffc925;
 }
-
 .topnav__link {
   text-decoration: none;
   color: #b8b8b8;
@@ -53,20 +49,17 @@
   width: 124px;
   background-color: #ff8900;
 }
-
 .button-top__link {
   padding-left: 63px;
   line-height: 50px;
   color: #fff;
 }
-
 .button-top__img {
   position: absolute;
   left: 36px;
   top: 17px;
   fill: #fff;
 }
-
 .button-top__img svg {
   fill: #fff;
 }
@@ -80,29 +73,24 @@
   justify-content: space-between;
   align-items: center;
 }
-
 .information__logo {
   width: 210px;
 }
-
 .information__connects {
   display: flex;
   width: 1015px;
   justify-content: space-between;
 }
-
 .information__phones {
   display: flex;
   align-items: center;
 }
-
 .information__phone {
   margin: 0 40px 0 0;
   color: #151515;
   font-weight: bold;
   font-size: 16px;
 }
-
 .information__links {
   display: flex;
 }
@@ -121,13 +109,11 @@
   color: #fff;
   cursor: pointer;
 }
-
 .button-phone__img {
   position: absolute;
   top: 16px;
   left: 32px;
 }
-
 .button-phone__text {
   padding-left: 15px;
 }
@@ -135,8 +121,9 @@
 .links-head {
   text-align: center;
 }
-
 .links-head__link {
+  display: block;
+  position: relative;
   text-decoration: none;
   text-align: center;
   width: 110px;
@@ -145,10 +132,26 @@
   color: #3d3d3d;
   text-transform: uppercase;
 }
-
+.links-head__link--active::before {
+  content: "5";
+  position: absolute;
+  top: -26px;
+  width: 20px;
+  height: 22px;
+  background-image: url("../img/message.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: auto;
+  padding-top: 3px;
+  font-size: 11px;
+  color: #fff;
+}
 .links-head__img {
   display: block;
   margin: 0 auto;
+}
+.links-head__text {
+  margin-top: 11px;
 }
 
 .header {
