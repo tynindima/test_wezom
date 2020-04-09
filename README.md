@@ -1,3 +1,3 @@
-# Test Wezom
-  [DEMO LINK](https://<your_account>.github.io/react_dynamic-list-of-todos/)
+# My test work
+  [Test Wezom](https://tynindima.github.io/test_wezom/)
 
