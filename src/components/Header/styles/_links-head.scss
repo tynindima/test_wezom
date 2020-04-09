@@ -1,0 +1,18 @@
+.links-head {
+  text-align: center;
+
+  &__link {
+    text-decoration: none;
+    text-align: center;
+    width: 110px;
+    height: 60px;
+    font-size: 10px;
+    color: #3d3d3d;
+    text-transform: uppercase;
+  }
+
+  &__img {
+    display: block;
+    margin: 0 auto;
+  }
+}

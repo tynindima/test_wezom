@@ -1,0 +1,53 @@
+.contacts {
+  display: grid;
+  grid-template-columns: repeat(4, 49px);
+  grid-template-rows: 49px;
+  grid-column-gap: 10px;
+
+  &__contact {
+    box-sizing: border-box;
+    width: 49px;
+    height: 49px;
+    border: 1px solid #7b8092;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: initial;
+    cursor: pointer;
+
+    &--vk {
+      background-image: url("../img/contacts/vk.svg");
+    }
+
+    &--facebook {
+      background-image: url("../img/contacts/facebook.svg");
+    }
+
+    &--twitter {
+      background-image: url("../img/contacts/twitter.svg");
+    }
+
+    &--youtube {
+      background-image: url("../img/contacts/youtube.svg");
+    }
+  }
+
+  &__contact:hover {
+    border: 1px solid #ffc925;
+  }
+
+  &__contact--vk:hover {
+    background-image: url("../img/contacts/vk-active.svg");
+  }
+
+  &__contact--facebook:hover {
+    background-image: url("../img/contacts/facebook-active.svg");
+  }
+
+  &__contact--twitter:hover {
+    background-image: url("../img/contacts/twitter-active.svg");
+  }
+
+  &__contact--youtube:hover {
+    background-image: url("../img/contacts/youtube-active.svg");
+  }
+}

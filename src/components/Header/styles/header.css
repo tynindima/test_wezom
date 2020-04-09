@@ -1,0 +1,158 @@
+.nav {
+  height: 50px;
+  background-color: #696969;
+}
+
+.wrapper {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+
+.topnav {
+  display: flex;
+  height: 50px;
+  max-width: 1360px;
+  padding: 0 70px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.topnav__list {
+  display: flex;
+  list-style: none;
+}
+
+.topnav__item {
+  margin-right: 11px;
+  padding: 18px 9px 15px 15px;
+  border-bottom: 2px solid #696969;
+}
+
+.topnav__item:first-child {
+  padding-left: 0;
+}
+
+.topnav__item:hover {
+  border-bottom: 2px solid #ffc925;
+}
+
+.topnav__link {
+  text-decoration: none;
+  color: #b8b8b8;
+  cursor: pointer;
+}
+
+.button-top {
+  position: relative;
+  height: 50px;
+  width: 124px;
+  background-color: #ff8900;
+}
+
+.button-top__link {
+  padding-left: 63px;
+  line-height: 50px;
+  color: #fff;
+}
+
+.button-top__img {
+  position: absolute;
+  left: 36px;
+  top: 17px;
+  fill: #fff;
+}
+
+.button-top__img svg {
+  fill: #fff;
+}
+
+.information {
+  display: flex;
+  max-width: 1360px;
+  padding: 0 70px;
+  margin: 0 auto;
+  height: 125px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.information__logo {
+  width: 210px;
+}
+
+.information__connects {
+  display: flex;
+  width: 1015px;
+  justify-content: space-between;
+}
+
+.information__phones {
+  display: flex;
+  align-items: center;
+}
+
+.information__phone {
+  margin: 0 40px 0 0;
+  color: #151515;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.information__links {
+  display: flex;
+}
+
+.button-phone {
+  position: relative;
+  width: 197px;
+  height: 49px;
+  border: none;
+  padding: 0;
+  margin: 0;
+  background-color: #ff8900;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button-phone__img {
+  position: absolute;
+  top: 16px;
+  left: 32px;
+}
+
+.button-phone__text {
+  padding-left: 15px;
+}
+
+.links-head {
+  text-align: center;
+}
+
+.links-head__link {
+  text-decoration: none;
+  text-align: center;
+  width: 110px;
+  height: 60px;
+  font-size: 10px;
+  color: #3d3d3d;
+  text-transform: uppercase;
+}
+
+.links-head__img {
+  display: block;
+  margin: 0 auto;
+}
+
+.header {
+  font-family: "Roboto", sans-serif;
+}
+
+/*# sourceMappingURL=header.css.map */

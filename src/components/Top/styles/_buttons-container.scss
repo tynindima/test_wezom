@@ -1,0 +1,36 @@
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 34px 46px 37px;
+
+  &__buttons {
+    border: 0;
+    width: 210px;
+    height: 50px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  &__img {
+    position: absolute;
+    top: calc(50% - 6.5px);
+    left: 36px;
+  }
+
+  &__text {
+    padding-left: 9px;
+  }
+
+  &__button-clear {
+    position: relative;
+    padding-left: 10px;
+    background-color: #ff4800;
+  }
+
+  &__button-apply {
+    background-image: linear-gradient(to right, #ff8500 0%, #ffae00 100%);
+    text-transform: uppercase;
+  }
+}

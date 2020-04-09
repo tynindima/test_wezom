@@ -1,0 +1,44 @@
+.selections {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "select1 select2 select3 select4"
+    "select5 select6 select7 select8";
+  grid-column-gap: 20px;
+  grid-row-gap: 26px;
+  margin-top: 23px;
+  padding: 0 35px;
+
+  &__select {
+    max-width: 222px;
+    height: 40px;
+    color: #9c9c9c;
+    font-size: 14px;
+
+    @for $i from 1 through 8 {
+      &--#{$i} {
+        grid-area: select#{$i};
+      }
+    }
+  }
+
+  .price {
+    display: flex;
+    font-size: 14px;
+
+    &__text {
+      color: #fff;
+      margin-right: 13px;
+    }
+
+    &__numbers {
+      box-sizing: border-box;
+      width: 74px;
+      color: #3b3b3b;
+      margin-left: 14px;
+      padding-left: 24px;
+      cursor: pointer;
+    }
+  }
+
+
+}

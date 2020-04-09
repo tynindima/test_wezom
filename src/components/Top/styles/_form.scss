@@ -1,0 +1,45 @@
+.form {
+  background-color: #696969;
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    background-color: #606a76;
+    padding-left: 26px;
+  }
+
+  &__item {
+    position: relative;
+    width: 183px;
+    height: 74px;
+    line-height: 74px;
+    cursor: pointer;
+  }
+
+  &__item:hover::before {
+    content: "";
+    position: absolute;
+    width: 183px;
+    height: 2px;
+    background-color: #ff8900;
+    top: calc(100% - 2px);
+  }
+
+  &__img {
+    margin: auto 0 auto 19px;
+    vertical-align: middle;
+
+    &--active {
+      opacity: 0.4;
+    }
+  }
+
+  &__link {
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    padding-left: 13px;
+    color: #fff;
+  }
+}

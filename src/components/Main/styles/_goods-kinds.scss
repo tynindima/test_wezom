@@ -1,0 +1,21 @@
+.goods-kinds {
+  &__kind {
+    width: 53px;
+    text-align: center;
+    margin-bottom: 14px;
+  }
+
+  &__kind:last-child {
+    margin-bottom: 0;
+  }
+
+  &__img {
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #91959a;
+  }
+}

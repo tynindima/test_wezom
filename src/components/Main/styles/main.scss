@@ -1,0 +1,11 @@
+@import "title-cards";
+@import "cards";
+@import "card";
+@import "stars";
+@import "goods-kinds";
+
+.main {
+  max-width: 1360px;
+  margin: 38px auto 61px;
+  padding: 0 70px;
+}

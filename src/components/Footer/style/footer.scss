@@ -1,0 +1,40 @@
+@import "block1";
+@import "block2";
+@import "bottom";
+@import "contacts";
+@import "end";
+
+.footer {
+  background-color: #696969;
+
+  &__blocks {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 37px 0;
+  }
+
+  &__blocks::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    background-color: #dbdbdb;
+    opacity: 0.1;
+
+  }
+
+  &__blocks-small {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__block2 {
+    margin-right: 21px;
+  }
+
+  &__block2:last-child {
+    margin-right: 0;
+  }
+}

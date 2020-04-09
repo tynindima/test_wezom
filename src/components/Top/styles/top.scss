@@ -1,0 +1,29 @@
+@import "menu";
+@import "search";
+@import "form";
+@import "tabs";
+@import "selections";
+@import "buttons-container";
+
+.top {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 70px;
+  display: grid;
+  grid-template-areas: "menu search" "menu form";
+  grid-template-columns: 325px 1fr;
+  grid-template-rows: 56px 1fr;
+  grid-gap: 20px;
+
+  &__menu {
+    grid-area: menu;
+  }
+
+  &__search {
+    grid-area: search;
+  }
+
+  &__form {
+    grid-area: form;
+  }
+}

@@ -17,10 +17,12 @@
   "devDependencies": {
     "@mate-academy/eslint-config-react-typescript": "*",
     "@mate-academy/stylelint-config": "*",
+    "@types/node-sass": "^4.11.0",
     "eslint": "^6.8.0",
     "gh-pages": "^2.2.0",
     "husky": "^4.0.10",
     "lint-staged": "^9.5.0",
+    "node-sass": "^4.13.1",
     "stylelint": "^13.0.0"
   },
   "scripts": {

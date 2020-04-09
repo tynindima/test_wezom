@@ -1,0 +1,41 @@
+.title-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__title {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #3b3b3b;
+  }
+
+  &__link-box {
+    position: relative;
+  }
+
+  &__link {
+    margin-right: 29px;
+    font-size: 14px;
+    color: #000;
+  }
+
+  &__arrow1 {
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    width: 12px;
+    height: 1px;
+    background-color: #ff8500;
+  }
+
+  &__arrow2 {
+    position: absolute;
+    right: 3px;
+    top: calc(50% - 1px);
+    width: 3px;
+    height: 3px;
+    background-image: url("../img/arrow.svg");
+    background-repeat: no-repeat;
+  }
+}
